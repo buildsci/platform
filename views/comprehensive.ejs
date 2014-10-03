@@ -119,22 +119,22 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="brand" href="/">EEB Hub Simulation Platform</a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li>
-                                <a href="/lite">LITE</a>
-                            </li>
-                            <li class="">
-                                <a href="/partial">PARTIAL</a>
-                            </li>
-                            <li>
-                                <a href="/substantial">SUBSTANTIAL</a>
-                            </li>
-                            <li class="active">
-                                <a href="/comprehensive">COMPREHENSIVE</a>
-                            </li>
-                        </ul>
+                    <a class="brand" href="/platform/">EEB Hub Simulation Platform</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li>
+                            <a href="lite">LITE</a>
+                        </li>
+                        <li>
+                            <a href="partial">PARTIAL</a>
+                        </li>
+                        <li>
+                            <a href="substantial">SUBSTANTIAL</a>
+                        </li>
+                        <li>
+                            <a href="comprehensive">COMPREHENSIVE</a>
+                        </li>
+                    </ul>
                     </div>
                     <!--/.nav-collapse -->
                     <div class="pull-right text-right">
@@ -201,17 +201,17 @@
                          </li>
                          <li><hr style="color:lightgray;background-color:lightgray;height:1px;border:none;"/></li>
                          <li>
-                             <a class="nohover" href="http://rmt.eebhub.org/comprehensive2/energy-use_example.php" target="_blank"><i class="icon-signal"></i><b>  Example Outputs</b></a>
+                             <a class="nohover" href="/comprehensive/energy-use_example.php" target="_blank"><i class="icon-signal"></i><b>  Example Outputs</b></a>
                          </li>
                          <li style="padding-bottom:15px;">
-                             <a class="nohover" href="http://rmt.eebhub.org/game/tracking-sheet.php" target="_blank"><i class="icon-signal"></i><b>  Example Staging</b></a>
+                             <a class="nohover" href="/game/tracking-sheet.php" target="_blank"><i class="icon-signal"></i><b>  Example Staging</b></a>
                          </li>
                     </ul>
                 </div>
                 
                 <!-- ################################### Building Section ################################################## -->
                 <div class="span9">
-                    <form name="platformForm" id="comprehensive-form" action="http://rmt.eebhub.org/openstudio/eeb_rb/simulate-openstudio.php" method="post" onsubmit="$('#baseline-form, header, .top-nav, footer').fadeTo('slow', 0.33);$('.loading-div').fadeIn('slow');$('html,body').css('overflow', 'hidden');loading();return true;">
+                    <form name="platformForm" id="comprehensive-form" action="/openstudio/eeb_rb/simulate-openstudio.php" method="post" onsubmit="$('#baseline-form, header, .top-nav, footer').fadeTo('slow', 0.33);$('.loading-div').fadeIn('slow');$('html,body').css('overflow', 'hidden');loading();return true;">
                     <section id="building">
                         <div class="box-unit building">
                             <div class="page-header">
@@ -1384,7 +1384,7 @@
 					var Req = getXmlHttpRequestObject();				// get xml request based off of browser
 
 					// currentRanNum is created in this js and sent to simulate-openstudio.php to designate path to save output
-					var filename = "http://128.118.67.241/openstudio/outputs/ENERGYPLUS/idf/Simulation_"+currentRanNum+".idf/EnergyPlusPreProcess/EnergyPlus-0/stdout"; 				
+					var filename = "http://128.8.215.83/openstudio/outputs/ENERGYPLUS/idf/Simulation_"+currentRanNum+".idf/EnergyPlusPreProcess/EnergyPlus-0/stdout"; 				
 		
 
 					Req.open("get", filename, false);		

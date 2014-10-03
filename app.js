@@ -15,7 +15,7 @@ var express = require('express'),
 
 var app = express();
 
-mongoose.connect("mongodb://128.118.67.242/test");
+//mongoose.connect("mongodb://128.118.67.242/test");
 var UserSchema = new mongoose.Schema({
     username: String,
     password: String,
@@ -197,7 +197,7 @@ function authenticate(name, pass, fn) {
 
 
 // Seting Server environments, ports and rendering
-app.set('port', process.env.PORT || 3000);
+app.set('port', 3000);
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 app.use(express.logger('dev'));
