@@ -78,7 +78,7 @@ module.exports = {
                     'scp -r ./mit/' + BuildingInputName + '/ bitnami@128.118.67.234:/home/bitnami/mit/';
 
             exec(command, function(error, stdout, stderr){
-            response.redirect('http://developer.eebhub.org/mit/'+BuildingInputName+'/'+BuildingInputName+'_output.html');
+            response.redirect('http://developer.buildsci.us/mit/'+BuildingInputName+'/'+BuildingInputName+'_output.html');
         });
         });
         
@@ -87,10 +87,10 @@ module.exports = {
         //exec('ssh platform@128.118.67.227 \"cd /home/platform/; java -jar DATest.jar '+BuildingInputName+'_input.txt; cp '+BuildingInputName+'.txt /home/platform/mit/' + BuildingInputName + '/\"', function(err2, stdout2, stderr2));
         //});
 
-        //response.redirect('http://developer.eebhub.org/mit/'+BuildingInputName+'/'+BuildingInputName+'_output.html');
+        //response.redirect('http://developer.buildsci.us/mit/'+BuildingInputName+'/'+BuildingInputName+'_output.html');
         
         //OLD RE-DIRECT TO ALL MIT FILES CREATED
-        //response.redirect('http://developer.eebhub.org/mit/'+BuildingInputName+'/');
+        //response.redirect('http://developer.buildsci.us/mit/'+BuildingInputName+'/');
 
     },
 };

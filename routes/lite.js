@@ -216,10 +216,10 @@ module.exports = {
                                         'Y2': Y2,
                                         'X1': X1,
                                         'X2': X2,
-                                        'insFile': 'http://developer.eebhub.org/imt/intputs/' + insFileNameElectric,
-                                        'datFile': 'http://developer.eebhub.org/imt/inputs/' + dataFileNameElectric,
-                                        'outFile': 'http://developer.eebhub.org/imt/outputs/' + outFileNameElectric,
-                                        'resFile': 'http://developer.eebhub.org/imt/outputs/' + resFileNameElectric,
+                                        'insFile': 'http://developer.buildsci.us/imt/intputs/' + insFileNameElectric,
+                                        'datFile': 'http://developer.buildsci.us/imt/inputs/' + dataFileNameElectric,
+                                        'outFile': 'http://developer.buildsci.us/imt/outputs/' + outFileNameElectric,
+                                        'resFile': 'http://developer.buildsci.us/imt/outputs/' + resFileNameElectric,
                                     });
                                 });
                             });
@@ -376,14 +376,14 @@ module.exports = {
                     'cv_gas': cv_gas,
                     'nmbe_gas': nmbe_gas,
                     //File Links
-                    'insFileElectric': 'http://developer.eebhub.org/imt/'+building_name + "_" + timestamp + '/'+insFileNameElectric,
-                    'datFileElectric': 'http://developer.eebhub.org/imt/' +building_name + "_" + timestamp + '/'+ dataFileNameElectric,
-                    'outFileElectric': 'http://developer.eebhub.org/imt/' +building_name + "_" + timestamp + '/'+ outFileNameElectric,
-                    'resFileElectric': 'http://developer.eebhub.org/imt/' +building_name + "_" + timestamp + '/'+ resFileNameElectric,
-                    'insFileGas': 'http://developer.eebhub.org/imt/' +building_name + "_" + timestamp + '/'+ insFileNameGas,
-                    'datFileGas': 'http://developer.eebhub.org/imt/' +building_name + "_" + timestamp + '/'+ dataFileNameGas,
-                    'outFileGas': 'http://developer.eebhub.org/imt/' +building_name + "_" + timestamp + '/'+ outFileNameGas,
-                    'resFileGas': 'http://developer.eebhub.org/imt/' +building_name + "_" + timestamp + '/'+ resFileNameGas,
+                    'insFileElectric': 'http://developer.buildsci.us/imt/'+building_name + "_" + timestamp + '/'+insFileNameElectric,
+                    'datFileElectric': 'http://developer.buildsci.us/imt/' +building_name + "_" + timestamp + '/'+ dataFileNameElectric,
+                    'outFileElectric': 'http://developer.buildsci.us/imt/' +building_name + "_" + timestamp + '/'+ outFileNameElectric,
+                    'resFileElectric': 'http://developer.buildsci.us/imt/' +building_name + "_" + timestamp + '/'+ resFileNameElectric,
+                    'insFileGas': 'http://developer.buildsci.us/imt/' +building_name + "_" + timestamp + '/'+ insFileNameGas,
+                    'datFileGas': 'http://developer.buildsci.us/imt/' +building_name + "_" + timestamp + '/'+ dataFileNameGas,
+                    'outFileGas': 'http://developer.buildsci.us/imt/' +building_name + "_" + timestamp + '/'+ outFileNameGas,
+                    'resFileGas': 'http://developer.buildsci.us/imt/' +building_name + "_" + timestamp + '/'+ resFileNameGas,
                 });
             });
 
@@ -454,10 +454,10 @@ module.exports = {
         //                                 'Y2': Y2,
         //                                 'X1': X1,
         //                                 'X2': X2,
-        //                                 'insFile': 'http://developer.eebhub.org/imt/intputs/' + insFileNameElectric,
-        //                                 'datFile': 'http://developer.eebhub.org/imt/inputs/' + dataFileNameElectric,
-        //                                 'outFile': 'http://developer.eebhub.org/imt/outputs/' + outFileNameElectric,
-        //                                 'resFile': 'http://developer.eebhub.org/imt/outputs/' + resFileNameElectric,
+        //                                 'insFile': 'http://developer.buildsci.us/imt/intputs/' + insFileNameElectric,
+        //                                 'datFile': 'http://developer.buildsci.us/imt/inputs/' + dataFileNameElectric,
+        //                                 'outFile': 'http://developer.buildsci.us/imt/outputs/' + outFileNameElectric,
+        //                                 'resFile': 'http://developer.buildsci.us/imt/outputs/' + resFileNameElectric,
         //                             });
         //                         });
         //                     });
@@ -583,14 +583,14 @@ module.exports = {
         //             'Ycp_electric': Ycp_electric,
         //             'Y_electric': Y_electric,
         //             //File Links
-        //             'insFileElectric': 'http://developer.eebhub.org/imt/intputs/' + insFileNameElectric,
-        //             'datFileElectric': 'http://developer.eebhub.org/imt/inputs/' + dataFileNameElectric,
-        //             'outFileElectric': 'http://developer.eebhub.org/imt/outputs/' + outFileNameElectric,
-        //             'resFileElectric': 'http://developer.eebhub.org/imt/outputs/' + resFileNameElectric,
-        //             'insFileGas': 'http://developer.eebhub.org/imt/intputs/' + insFileNameGas,
-        //             'datFileGas': 'http://developer.eebhub.org/imt/inputs/' + dataFileNameGas,
-        //             'outFileGas': 'http://developer.eebhub.org/imt/outputs/' + outFileNameGas,
-        //             'resFileGas': 'http://developer.eebhub.org/imt/outputs/' + resFileNameGas,
+        //             'insFileElectric': 'http://developer.buildsci.us/imt/intputs/' + insFileNameElectric,
+        //             'datFileElectric': 'http://developer.buildsci.us/imt/inputs/' + dataFileNameElectric,
+        //             'outFileElectric': 'http://developer.buildsci.us/imt/outputs/' + outFileNameElectric,
+        //             'resFileElectric': 'http://developer.buildsci.us/imt/outputs/' + resFileNameElectric,
+        //             'insFileGas': 'http://developer.buildsci.us/imt/intputs/' + insFileNameGas,
+        //             'datFileGas': 'http://developer.buildsci.us/imt/inputs/' + dataFileNameGas,
+        //             'outFileGas': 'http://developer.buildsci.us/imt/outputs/' + outFileNameGas,
+        //             'resFileGas': 'http://developer.buildsci.us/imt/outputs/' + resFileNameGas,
         //         });
         //     });
 
@@ -652,7 +652,7 @@ module.exports = {
                 //var url = 'http://128.118.67.251:8080/EEBHubData/EEBHubDBServlet?Command=InsertData&FileName=' + building_name + timestamp;
                 //var request = require('request');
                 //request.post({url:'http://128.118.67.251:8080/EEBHubData/EEBHubDBServlet', Command:'InsertData', Filename: building_name+timestamp}, function (e, r, body) {
-                //    response.redirect('http://ibm.eebhub.org:8080/EEBHubND/Main.html');
+                //    response.redirect('http://ibm.buildsci.us:8080/EEBHubND/Main.html');
                 //});
                 
                 

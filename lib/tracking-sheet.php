@@ -317,19 +317,19 @@ $MeasureIndex =array("none"=>"none","bmsSBChecked"=>"Building Management System"
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="http://tools.eebhub.org/">Home</a>
+                <a href="http://tools.buildsci.us/">Home</a>
               </li>
               <li class="">
-                <a href="http://tools.eebhub.org/">Lite</a>
+                <a href="http://tools.buildsci.us/">Lite</a>
               </li>
               <li class="">
-                <a href="http://tools.eebhub.org/">Partial</a>
+                <a href="http://tools.buildsci.us/">Partial</a>
               </li>
               <li class="">
-                <a href="http://tools.eebhub.org/substantial">Substantial</a>
+                <a href="http://tools.buildsci.us/substantial">Substantial</a>
               </li>
               <li class="active">
-                <a href="http://tools.eebhub.org/comprehensive">Comprehensive</a>
+                <a href="http://tools.buildsci.us/comprehensive">Comprehensive</a>
               </li>
             </ul>
           </div>
@@ -642,7 +642,7 @@ $
 </p>
 <br>
 -->
-<h5 class="text-left">Built by the <a href="http://www.eebhub.org">Energy Efficient Buildings HUB</a>, a <a href="http://energy.gov/science-innovation/innovation/hubs">U.S. Department of Energy Innovation HUB</a>.  Powered by DOE's OpenStudio SDK & EnergyPlus Engine.  </h5>
+<h5 class="text-left">Built by the <a href="http://www.buildsci.us">Energy Efficient Buildings HUB</a>, a <a href="http://energy.gov/science-innovation/innovation/hubs">U.S. Department of Energy Innovation HUB</a>.  Powered by DOE's OpenStudio SDK & EnergyPlus Engine.  </h5>
 <h5 class="text-left">Our Retrofit Manager Tool team includes PSU, UMaryland, & NREL.  <a href="https://github.com/eebhub/platform/blob/master/ACKNOWLEDGEMENT_DISCLAIMER">DOE Acknowledgement & Disclaimer</a>.</h5>
 <br>
 </div> <!-- /container -->

@@ -214,7 +214,7 @@ if ('development' == app.get('env')) {
 }
 
 //NodeAnalytics
-NA.initialize('UA-26348074-7', 'eebhub.org', function() {
+NA.initialize('UA-26348074-7', 'buildsci.us', function() {
     NA.trackPage('Energy Retrofit Game', '/game', function(err, resp) {
         if (!err && resp.statusCode === 200) {
             console.log('Page has been tracked with Google Analytics Game Page');
@@ -1413,14 +1413,14 @@ app.post('/savebuildingcomprehensive', function(req, res) {
 
 //ReRoutes / ReDirects / Easy Links for Task 2--------------------------------------------------------
 
-app.get("/platform", function(req, res) { //added to reroute outdated tools.eebhub.org/platform link
-    res.redirect("http://tools.eebhub.org");
+app.get("/platform", function(req, res) { //added to reroute outdated tools.buildsci.us/platform link
+    res.redirect("http://tools.buildsci.us");
 });
 app.get("/ideas", function(req, res) {
     res.redirect("http://eebhub.uservoice.com/forums/224458-general");
 });
 app.get("/weather", function(req, res) {
-    res.redirect("http://developer.eebhub.org/weather.html");
+    res.redirect("http://developer.buildsci.us/weather.html");
 });
 app.get("/graphics", function(req, res) {
     res.redirect("http://eebhub.minus.com/");
@@ -1441,7 +1441,7 @@ app.get("/code", function(req, res) {
     res.redirect("https://github.com/eebhub/platform/tree/master");
 });
 app.get("/files", function(req, res) {
-    res.redirect("http://developer.eebhub.org/");
+    res.redirect("http://developer.buildsci.us/");
 });
 app.get("/variables", function(req, res) {
     res.redirect("http://www1.eere.energy.gov/buildings/commercial/bedes.html");
@@ -1450,10 +1450,10 @@ app.get("/database", function(req, res) {
     res.redirect("https://docs.google.com/document/d/1sL0Km4AzIGoDF-OWU3EBOFI0MIibu1fmum5VHNVsayQ/edit?usp=sharing");
 });
 app.get("/game", function(req, res) {
-    res.redirect("http://rmt.eebhub.org/game/");
+    res.redirect("http://rmt.buildsci.us/game/");
 });
 app.get("/vision", function(req, res) {
-    res.redirect("http://developer.eebhub.org/eebhub/task2.html");
+    res.redirect("http://developer.buildsci.us/eebhub/task2.html");
 });
 app.get("/license", function(req, res) {
     res.redirect("https://github.com/eebhub/platform/blob/master/LICENSE");
@@ -1465,7 +1465,7 @@ app.get("/wiki", function(req, res) {
     res.redirect("https://github.com/eebhub/platform/wiki");
 });
 app.get("/developers", function(req, res) {
-    res.redirect("http://developer.eebhub.org");
+    res.redirect("http://developer.buildsci.us");
 });
 // app.get("/presentation", function (req, res) {
 //     res.redirect("https://skydrive.live.com/redir?resid=16B20B2C9752FBFF%21214");
@@ -1552,10 +1552,10 @@ app.get("/software5", function(req, res) {
     res.redirect("https://skydrive.live.com/view.aspx?resid=16B20B2C9752FBFF!202&app=PowerPoint");
 });
 app.get("/deliverable", function(req, res) {
-    res.redirect("http://developer.eebhub.org/archives/reports/Task2-DeliverablesReport-BetaReleaseSimulationTools-toNETL.pdf");
+    res.redirect("http://developer.buildsci.us/archives/reports/Task2-DeliverablesReport-BetaReleaseSimulationTools-toNETL.pdf");
 });
 app.get("/deliverables", function(req, res) {
-    res.redirect("http://developer.eebhub.org/archives/reports/Task2-DeliverablesReport-BetaReleaseSimulationTools-toNETL.pdf");
+    res.redirect("http://developer.buildsci.us/archives/reports/Task2-DeliverablesReport-BetaReleaseSimulationTools-toNETL.pdf");
 });
 app.get("/statistics", function(req, res) {
     res.redirect("https://www.ohloh.net/p/simulationplatform");
@@ -1564,7 +1564,7 @@ app.get("/stats", function(req, res) {
     res.redirect("https://www.ohloh.net/p/simulationplatform");
 });
 app.get("/objectives", function(req, res) {
-    res.redirect("http://developer.eebhub.org/archives/reports/2013DeliverablesObjectivesEEBHubSimulationModeling.pdf");
+    res.redirect("http://developer.buildsci.us/archives/reports/2013DeliverablesObjectivesEEBHubSimulationModeling.pdf");
 });
 app.get("/sensors", function(req, res) {
     res.redirect("https://realtimeboard.com/app/5204832/Building101/");

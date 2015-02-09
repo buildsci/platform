@@ -193,5 +193,5 @@ $_SESSION['eem3_model'] = "EEM3_EEM2_EEM1_Simulation_$user.idf";
 //echo $run2;
 
 
-header("location: http://128.118.67.241/tools.eebhub.org");
+header("location: http://128.118.67.241/tools.buildsci.us");
 ?>
