@@ -9,8 +9,7 @@ var express = require('express'),
     lite = require("./routes/lite.js"),
     partial = require("./routes/partial.js"),
     substantial = require("./routes/substantial.js"),
-    mongoose = require('mongoose'),
-    NA = require("nodealytics");
+    mongoose = require('mongoose');
 
 
 var app = express();
@@ -212,17 +211,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' == app.get('env')) {
     app.use(express.errorHandler());
 }
-
-//NodeAnalytics
-NA.initialize('UA-26348074-7', 'buildsci.us', function() {
-    NA.trackPage('Energy Retrofit Game', '/game', function(err, resp) {
-        if (!err && resp.statusCode === 200) {
-            console.log('Page has been tracked with Google Analytics Game Page');
-        }
-    });
-});
-
-
 
 //Get Routing
 app.get('/', routes.getHome);
